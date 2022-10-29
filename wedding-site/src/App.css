@@ -136,13 +136,15 @@ hr {
 }
 
 .mobile-link {
+    position: relative;
+    top: 3px;
     width: 100%;
     text-align: center;
 }
 
 .mobile-tab {
     /* background-color: rgba(194, 190, 180, 0.925); */
-    font-size: 1.4em;
+    font-size: 1.3em;
     background-color: rgba(241, 240, 237, 0.925);
     box-sizing: border-box;
     border: 1px inset gray;
