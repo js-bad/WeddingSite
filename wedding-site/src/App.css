@@ -69,27 +69,31 @@ html, body {
 }
 
 .desktop-tab {
-    background-color: rgba(194, 190, 180, 0.651);
+    background-color: rgba(194, 190, 180, 0.76);
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-size:larger;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px rgb(255, 255, 255) inset;
 }
 
 .desktop-tab:hover {
     background-color: rgba(255, 225, 144, 0.594);
-    
+    border: 1px rgb(255, 255, 255) outset;
 }
 
 .active-desktop-tab {
     background-color: rgba(250, 219, 133, 0.582) !important;
+    border: 1px rgb(255, 255, 255) outset;
 }
 
 a {
     text-decoration: none;
     color: rgb(83, 83, 83);
     font-weight: bold;
-    width: 12em;
+    width: 9em;
     padding-top: 5px;
     padding-bottom: 10px;
     display: block;

@@ -1,7 +1,9 @@
 import Home from './Home/Home'
+import VIPs from './VIPs/VIPs'
 import Gallery from './Gallery/Gallery'
 import Location from './Location/Location'
 import RSVP from './RSVP/RSVP'
+import Registry from './Registry/Registry'
 
 function tabContentBinding(args) {
 
@@ -10,6 +12,11 @@ function tabContentBinding(args) {
             path: 'Home/Home.js',
             component: <Home rootCtrl={args.rootCtrl} />,
             route: '/'
+        },
+        'VIPs': {
+            path: 'VIPs/VIPs.js',
+            component: <VIPs rootCtrl={args.rootCtrl} />,
+            route: '/VIPs'
         },
         'Gallery': {
             path: 'Gallery/Gallery.js',
@@ -25,6 +32,11 @@ function tabContentBinding(args) {
             path: 'RSVP/RSVP.js',
             component: <RSVP rootCtrl={args.rootCtrl} />,
             route: '/rsvp'
+        },
+        'Registry': {
+            path: 'Registry/Registry.js',
+            component: <Registry rootCtrl={args.rootCtrl} />,
+            route: '/registry'
         }
     }
 } 
