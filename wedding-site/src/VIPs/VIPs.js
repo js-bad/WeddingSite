@@ -1,4 +1,4 @@
 
 export default function VIPs(props) {
-    return <div>VIPs!!</div>
+    return <div className="VIPs">VIPs!!</div>
 }

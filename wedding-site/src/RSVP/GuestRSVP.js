@@ -47,8 +47,7 @@ export default function GuestRSVP(props) {
         ?
         <div className='guest-rsvp'>
             <div className='guest-rsvp-field'>
-                <label htmlFor='name'>Name:</label>
-                {rsvp.isPlusOne
+                {rsvp.isPlusOne 
                 ? <input placeholder='Enter Guest Name' id='name' type="text" 
                     onChange={e => setName(e.target.value)} className='guest-rsvp-field-plusone-input'
                     style={{display: 'block'}}></input>

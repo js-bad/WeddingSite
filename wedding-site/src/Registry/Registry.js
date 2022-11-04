@@ -1,4 +1,4 @@
 
 export default function Registry (props) {
-    return <div>Registry!!</div>
+    return <div className="Registry">Registry!!</div>
 }
