@@ -20,11 +20,17 @@ const RSVPSchema = new Schema({
     },
     completed: {
         type: Boolean,
-        default: false
+        default: false,
+        required: false
     },
     isPlusOne: {
         type: Boolean,
-        default: false
+        default: false,
+        required: false
+    },
+    isVaccinated: {
+        type: Boolean,
+        required: false
     }
 })
 

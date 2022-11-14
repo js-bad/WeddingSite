@@ -2,9 +2,8 @@ import { useEffect, useState } from 'react';
 import GuestRSVP from './GuestRSVP';
 import services from '../services';
 
-export default function useRSVPCtrl() {
+export default function useRSVPCtrl(rootCtrl) {
     const s = services();
-
     const [numRSVPs, setNumRSVPs] = useState(0);
     const [guestRSVPs, setGuestRSVPs] = useState();
 
@@ -51,7 +50,7 @@ export default function useRSVPCtrl() {
 
         data.map(rsvp => {
             tempRSVPs.push(
-                <GuestRSVP key={rsvp._id} send={sendRSVP} rsvp={rsvp} />
+                <GuestRSVP key={rsvp._id} send={sendRSVP} rsvp={rsvp} rootCtrl={rootCtrl} />
             )
         });
 

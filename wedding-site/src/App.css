@@ -289,6 +289,7 @@ hr {
     height: 100vh;
     width: 100vw;
     background-color: rgba(92, 92, 92, 0.429);
+    overflow-y: scroll;
 }
 
 .img-proj-content {
@@ -331,6 +332,7 @@ hr {
     display: block;
     width: fit-content;
     margin: auto;
+    text-align: center;
 }
 .init-rsvp-text {
     font-size: 1.2em;
@@ -343,6 +345,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.init-rsvp-note {
+    margin-top: 3px;
 }
 
 .init-rsvp-name {
@@ -365,6 +371,33 @@ hr {
     background-color: rgba(247, 222, 155, 0.712);
     font-weight: bold;
     color: white;
+}
+.vacc-btn {
+    position: relative;
+    height: 40px;
+    top: 1px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: 2px rgb(185, 185, 185) outset;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px black);
+    text-decoration: none;
+    background-color: rgb(185, 185, 185);
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+.vacc-btn:hover {
+    border: 2px rgb(185, 185, 185) inset;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.vacc-btn-yes {
+    border: 2px rgba(1, 202, 1, 0.904) outset;
+    background-color:rgba(1, 202, 1, 0.904);
+}
+.vacc-btn-yes:hover {
+    border: 2px rgba(1, 202, 1, 0.904) inset;
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .close-btn {
@@ -447,6 +480,23 @@ hr {
 .err-content h3 {
     font-size: x-large;
     color: rgb(255, 1, 1);
+}
+.confirm-vacc-content {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    max-width: 90vw;
+    margin: 25vh auto;
+    background-color: white;
+    padding: 1em 3em;
+    border-radius: 5px;
+    filter: drop-shadow(5px, 5px, 5px, black);
+    color:rgb(83, 83, 83);
+    max-width: 40%;
+    border: 1px outset black;
+}
+.confirm-vacc-content-mobile {
+    margin-top: 10vh;
 }
 
 .home-page {
@@ -545,4 +595,40 @@ h2.headline-item-mobile {
 }
 .curvy-font {
     font-family: 'Dancing Script', cursive;
+}
+
+.divider {
+    width: 100%;
+    height: 0;
+    border: 1px inset gray;
+    border-radius: 50%;
+}
+
+.vips-header {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vip-icon {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center; 
+    width: 50%; 
+    height: 120px;
+}
+
+.cdc-hyperlink {
+    font-size: medium;
+    background-color: rgb(146, 211, 255);
+    border: 3px outset rgb(177, 224, 255);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2em;
+}
+.cdc-hyperlink:hover {
+    background-color: rgb(103, 194, 255);
+    border: 3px inset rgb(177, 224, 255);
+
 }

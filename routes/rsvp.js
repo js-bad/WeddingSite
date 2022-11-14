@@ -4,15 +4,17 @@ const Rsvp = require('../models/RSVP');
 
 
 router.post('/', async (req, res) => {
-    const newRSVP = new Rsvp({
-        guestName: req.body.name,
-        attending: req.body.attending,
-        notes: req.body.notes
-    });
+    const updateRSVP = await Rsvp.findOne({ _id: req.body._id });
+    updateRSVP.guestName = req.body.guestName;
+    updateRSVP.completed = req.body.completed;
+    updateRSVP.isVaccinated = req.body.isVaccinated;
+    updateRSVP.notes = req.body.notes;
+    updateRSVP.attending = req.body.attending;
+
     var resObj;
     
     try {
-        var doc = await newRSVP.save();
+        var doc = await updateRSVP.save();
         resObj = {
             message: `"${doc.guestName}" saved successfully`,
             content: doc
@@ -22,6 +24,7 @@ router.post('/', async (req, res) => {
         resObj = {
             message: err
         }
+        res.statusCode(500).json(resObj);
     }
     res.json(resObj);
 });
