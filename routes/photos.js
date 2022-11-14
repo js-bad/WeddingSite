@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
     await s3.upload(params, async (err, data) => {
         if (err){
             console.log(err)
-            res.statusCode(500).send(err)
+            res.status(500).send(err)
         }
         try{
             const imgUrl = new ImgUrl({

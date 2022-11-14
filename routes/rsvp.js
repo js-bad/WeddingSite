@@ -24,7 +24,7 @@ router.post('/', async (req, res) => {
         resObj = {
             message: err
         }
-        res.statusCode(500).json(resObj);
+        res.status(500).json(resObj);
     }
     res.json(resObj);
 });
