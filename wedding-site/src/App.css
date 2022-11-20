@@ -652,6 +652,10 @@ h2.headline-item-mobile {
     font-weight: normal;
     color: rgb(83, 83, 83);
 }
+.hotel-button-mobile {
+    width: 100%;
+    margin-bottom: 10px;
+}
 .hotel-button:hover {
     border: 2px inset rgba(236, 236, 236, 0.842);
     background-color: rgba(236, 236, 236, 0.842);
