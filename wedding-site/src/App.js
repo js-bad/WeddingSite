@@ -16,7 +16,7 @@ function App() {
   const tabContents = tabContentBinding({ rootCtrl: ctrl })
   const routes = Object.entries(tabContents).map(
     ([key, value]) => {
-      return <Route
+      return <Route 
       key={key}
       path={value.route}
       element={<ContentContainer content={ value } pageName={ key } rootCtrl={ ctrl } />}
