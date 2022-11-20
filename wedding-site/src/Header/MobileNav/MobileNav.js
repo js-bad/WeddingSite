@@ -1,5 +1,5 @@
 import tabContentBinding from '../../tabContentBinding'
-import logo from '../../images/logo.svg';
+import logo from '../../images/logosquarewhite.png';
 
 import {
     useMatch,
