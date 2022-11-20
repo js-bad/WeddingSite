@@ -671,3 +671,20 @@ h2.headline-item-mobile {
     width: auto;
 }
 
+.rsvp-btn {
+    cursor: pointer;
+    border: 2px rgb(185, 185, 185) outset;
+    border-radius: 10px;
+    text-decoration: none; 
+    background-color: rgba(247, 222, 155, 0.712);
+    padding: 5px 5px;
+    font-family: 'Bellefair', cursive;
+    font-size:larger;
+    font-weight: bold;
+    color: white;
+}
+.rsvp-btn:hover {
+    border: 2px rgb(185, 185, 185) inset;
+    background-color: rgba(235, 210, 147, 0.712);
+    color: rgb(235, 235, 235);
+}

@@ -101,7 +101,9 @@ export default function GuestRSVP(props) {
                     defaultValue={notes}></textarea>
             </div>
             <div className='guest-rsvp-field'>
-                <button disabled={submitDisabled()} onClick={e => handleSubmit(e)}>RSVP</button>
+                <button className='rsvp-btn' 
+                    disabled={submitDisabled()} 
+                    onClick={e => handleSubmit(e)}> Send RSVP</button>
             </div>
             <ConfirmVaccination rootCtrl={props.rootCtrl} show={confirmVaccinationOpen} name={name} updateVaccination={updateVaccination} />
         </div>
