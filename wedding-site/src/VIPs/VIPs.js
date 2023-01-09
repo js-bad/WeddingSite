@@ -1,6 +1,7 @@
 import _ from "lodash";
 export default function VIPs(props) {
 
+
     const weddingPartyMembers = [
         { 
             name: "Hannah Crossno", 

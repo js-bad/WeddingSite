@@ -42,7 +42,7 @@ export default function Home(props) {
             <span className={classes.date}>4/22/2023</span>
 
             <div className={classes.location}>
-                <span className={classes.locationName}>Northern Stacks Event Center</span>
+                <span className={classes.locationName}>Northern Stacks Events</span>
                 <span className={classes.locationStreet}>38 Northern Stacks Drive</span>
                 <span className={classes.locationCity}>Fridley, MN</span>
             </div>

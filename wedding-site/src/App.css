@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arima:wght@300;500;700&family=Bellefair&family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arima:wght@300;500;700&family=Bellefair&family=Cousine&family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
 .App {
     font-family: 'Dancing Script', cursive;
     font-size: larger;
@@ -691,4 +692,40 @@ h2.headline-item-mobile {
     border: 2px rgb(185, 185, 185) inset;
     background-color: rgba(235, 210, 147, 0.712);
     color: rgb(235, 235, 235);
+}
+
+.reg-link {
+    width: 40%;
+    min-width: 252px;
+    border: 2px outset rgba(187, 186, 186, 0.842);
+    background-color: rgba(187, 186, 186, 0.842);
+    /* background-color: rgba(236, 236, 236, 0.842); */
+    height: 6em;
+    overflow: hidden;
+    margin-top: 2em;
+    padding: 0 1em;
+    border-radius: 5px;
+}
+.reg-link:hover {
+    border: 2px inset rgba(236, 236, 236, 0.842);
+    background-color: rgb(247, 223, 155);
+    
+}
+.reg-link img {
+    width: 100%;
+    position: absolute;
+    top: -100%; left:0; right:0; bottom:-100%;
+    margin: auto;
+}
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 6em;
+}
+#registryDivider {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.mono-font {
+    font-family: 'Cousine', monospace;
 }

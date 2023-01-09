@@ -26,7 +26,7 @@ export default function Location(props) {
                     </div>
                     <div style={{display: 'flex', flexDirection: 'column', width: isMobile ? '100%' : '30%', marginTop: isMobile && '10px'}}>
                         <div style={{textAlign: 'center'}}>
-                            Northern Stacks Event Center is connected to Forgotten Star Brewery+Taproom, guests are 
+                            Northern Stacks Events is connected to Forgotten Star Brewery+Taproom, guests are 
                             welcome to come and go between the two areas!
                         </div>
 

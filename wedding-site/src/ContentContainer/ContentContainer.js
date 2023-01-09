@@ -12,7 +12,7 @@ export default function ContentContainer(props) {
                 </div>
             </Suspense>
             <div className={`${props.pageName}`}></div>
-            
+            <div style={{height:'70px'}}></div>
         </section>
     )
 }
