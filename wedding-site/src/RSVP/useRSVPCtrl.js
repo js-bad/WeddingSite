@@ -54,6 +54,12 @@ export default function useRSVPCtrl(rootCtrl) {
             )
         });
 
+        tempRSVPs.sort((x, y) => {
+            const xPlusOne = x.props.rsvp.isPlusOne;
+            const yPlusOne = y.props.rsvp.isPlusOne;
+            return (xPlusOne===yPlusOne)? 0 : xPlusOne ? 1 : -1;
+        });
+
         setGuestRSVPs(tempRSVPs);
     }
 
