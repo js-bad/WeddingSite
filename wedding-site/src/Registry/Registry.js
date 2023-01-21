@@ -41,8 +41,8 @@ export default function Registry (props) {
             {uiLinks}
         </div>
         <div id="registryDivider" className="divider"></div>
-        <div style={{display:'flex'}}><img style={{margin: 'auto',width:400}} src={venmoLogo} /> </div>
-        <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',lineHeight:'0.1em'}} className="straight-font">
+        <div style={{display:'flex'}}><img style={{margin: 'auto',width:330}} src={venmoLogo} /> </div>
+        <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',lineHeight:'0.1em',maxWidth:`${isDesktop?'80%':''}`,marginLeft:'auto',marginRight:'auto'}} className="straight-font">
             <h3 className='curvy-font' style={{fontSize:'1.5em'}}>Jessi: <span style={{fontSize:'.75em'}} className='mono-font'>@deliahhh</span></h3>
             <h3 className='curvy-font' style={{fontSize:'1.5em'}}>Kaleb: <span style={{fontSize:'.75em'}} className='mono-font'>@Kaleb-Olson-1</span></h3>
         </div>
