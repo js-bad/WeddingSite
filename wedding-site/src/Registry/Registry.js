@@ -1,6 +1,7 @@
 import targetLogo from '../images/Target_logo.png';
 import westElmLogo from "../images/west-elm-logo.svg";
 import crateAndBarrelLogo from "../images/crate-and-barrel-logo.png";
+import williamsSonomaLogo from "../images/williams-sonoma-logo.svg"
 import venmoLogo from "../images/venmo_logo.png";
 import { useState } from 'react';
 
@@ -13,16 +14,16 @@ export default function Registry (props) {
             link: "https://www.target.com/gift-registry/gift/jessi-kaleb-wedding",
             image: targetLogo
         },
-        // {
-        //     key: 'westelm',
-        //     link: "",
-        //     image: westElmLogo
-        // },
-        // {
-        //     key: 'crateandbarrel',
-        //     link: "",
-        //     image: crateAndBarrelLogo
-        // }
+        {
+            key: 'williamssonoma',
+            link: "https://www.williams-sonoma.com/registry/lxp8tgv67g/registry-list.html",
+            image: williamsSonomaLogo
+        },
+        {
+            key: 'crateandbarrel',
+            link: "https://www.crateandbarrel.com/gift-registry/jessi-sprehn-and-kaleb-olson/r6254892",
+            image: crateAndBarrelLogo
+        }
     ]);
 
     const uiLinks = registryData.map((entry) => 
