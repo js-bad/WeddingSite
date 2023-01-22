@@ -729,3 +729,17 @@ h2.headline-item-mobile {
 .mono-font {
     font-family: 'Cousine', monospace;
 }
+
+#rsvp-disclaimers {
+    font-size: .7em;
+    position: absolute;
+    right: -35px;
+    top: -10px;
+}
+
+#rsvp-disclaimers-mobile {
+    font-size: .7em;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
