@@ -628,8 +628,19 @@ h2.headline-item-mobile {
     flex-direction: column-reverse;
     text-align: center; 
     width: 50%; 
-    height: 120px;
+    /* height: 120px; */
+    margin: 1em auto;
 }
+.vip-icon > .img-box {
+    width: 120px;
+    margin: 5px auto;
+    position: static;
+}
+
+/* .vip-icon img {
+    width: auto;
+    height: 200px;
+} */
 
 .cdc-hyperlink {
     font-size: medium;
@@ -743,3 +754,4 @@ h2.headline-item-mobile {
     top: 10px;
     text-align: center;
 }
+

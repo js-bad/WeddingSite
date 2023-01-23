@@ -18,25 +18,29 @@ export default function VIPs(props) {
             name: "Zach Aune"
         },
         {
-            name: "Allyson Koehler"
+            name: "Allyson Koehler",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/allyson.jpg"
         },
         {
             name: "Micah Saugen"
         },
         {
-            name: "Zach Farmer"
+            name: "Zach Farmer",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/farmer.jpg"
         },
         {
-            name: "Kyle Homstad"
+            name: "Kyle Homstad",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/kyle.jpg"
         }
     ];
 
     const weddingPartyIcons = _.map(weddingPartyMembers, (member) => {
         return (
             <div key={ member.name } className="vip-icon">
+                
                 { member.title ? <span>{ member.title }</span> : '' }
                 <span className="straight-font">{ member.name }</span>
-                
+                <div className="img-box"><img src={member.imgUrl} /></div>
             </div>
         );
     });
@@ -44,7 +48,8 @@ export default function VIPs(props) {
     const inMemoriamMembers = [
         {
             name: "Tanya Eisner",
-            title: "Mother of the Bride"
+            title: "Mother of the Bride",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/tanya.png"
         }
     ];
 
@@ -53,7 +58,7 @@ export default function VIPs(props) {
             <div key={ member.name } className="vip-icon">
                 { member.title ? <span>{ member.title }</span> : '' }
                 <span className="straight-font">{ member.name }</span>
-                
+                <div className="img-box"><img src={member.imgUrl} /></div>
             </div>
         );
     });
