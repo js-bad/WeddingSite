@@ -14,14 +14,14 @@ export default function Registry (props) {
             link: "https://www.target.com/gift-registry/gift/jessi-kaleb-wedding",
             image: targetLogo
         },
-        {
-            key: 'williamssonoma',
-            link: "https://www.williams-sonoma.com/registry/lxp8tgv67g/registry-list.html",
-            image: williamsSonomaLogo
-        },
+        // {
+        //     key: 'williamssonoma',
+        //     link: "https://www.williams-sonoma.com/registry/lxp8tgv67g/registry-list.html",
+        //     image: williamsSonomaLogo
+        // },
         {
             key: 'crateandbarrel',
-            link: "https://www.crateandbarrel.com/gift-registry/jessi-sprehn-and-kaleb-olson/r6254892",
+            link: "https://www.crateandbarrel.com/gift-registry/jessi-sprehn-and-kaleb-olson/r6657481",
             image: crateAndBarrelLogo
         }
     ]);
