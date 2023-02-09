@@ -35,7 +35,7 @@ router.get('/', async (req, res) => {
         if (!name || name === 'undefined') throw 'Name not entered. Please enter name as it appears on invitation!';
 
         const requester = await Rsvp.findOne({ "guestName": new RegExp(`^${name}$`, 'i') });
-        if (!requester) throw `${name} guest not found. If your invitation is for multiple people, just enter one person's first and last name, as they are spelled on the envelope.`
+        if (!requester) throw `'${name}' guest not found. If your invitation is for multiple people, just enter one person's first and last name, as they are spelled on the envelope.`
 
         const fullGroup = await Rsvp.find({ groupID: requester.groupID });
     

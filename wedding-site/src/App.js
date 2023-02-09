@@ -36,7 +36,7 @@ return (
       </Routes>
 
     </BrowserRouter>
-    <ErrorHandler />
+    <ErrorHandler rootCtrl={ctrl}/>
   </div>
 );
 }

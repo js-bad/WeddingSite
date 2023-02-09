@@ -499,6 +499,9 @@ hr {
     background-color: white;
     padding: 1em 3em;
 }
+.err-content-mobile {
+    width: 250px;
+}
 .err-content h3 {
     font-size: x-large;
     color: rgb(255, 1, 1);

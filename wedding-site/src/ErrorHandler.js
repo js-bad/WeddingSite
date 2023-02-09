@@ -5,6 +5,7 @@ import closeBtnImg from './images/close-round-icon.svg'
 export default function ErrorHandler(props) {
     const [active, setActive] = useState(false);
     const [message, setMessage] = useState("Unknown Error");
+    const isMobile = props.rootCtrl.isMobile;
 
     PubSub.subscribe("error", (message, data) => {
         setActive(true);
@@ -19,7 +20,8 @@ export default function ErrorHandler(props) {
     if (active)
         return (
             <div className='splash-guard'>
-                <div className='err-content straight-font'>
+                <div className={`err-content ${isMobile && 'err-content-mobile'} straight-font`}>
+                    <h1>oh no!!</h1>
                     <h3>{message}</h3>
                     <p>Please call or text Kaleb at (612)804-3445 with any site issues!</p>
                     <img src={closeBtnImg} className='close-btn' onClick={(e) => close()} />
