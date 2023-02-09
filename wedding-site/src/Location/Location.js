@@ -22,7 +22,7 @@ export default function Location(props) {
                         </a>
                         
                         <span style={{marginTop: '15px'}}>Parking: Free Onsite</span>
-                        <span>Guest Arrival: 3:00 PM, 4/22/23</span>
+                        <span>The ceremony will begin at 3:00PM</span>
                     </div>
                     <div style={{display: 'flex', flexDirection: 'column', width: isMobile ? '100%' : '30%', marginTop: isMobile && '10px'}}>
                         <div style={{textAlign: 'center'}}>
