@@ -21,9 +21,9 @@ export default function ErrorHandler(props) {
         return (
             <div className='splash-guard'>
                 <div className={`err-content ${isMobile && 'err-content-mobile'} straight-font`}>
-                    <h1>oh no!!</h1>
+                    <h1>Oops!</h1>
                     <h3>{message}</h3>
-                    <p>Please call or text Kaleb at (612)804-3445 with any site issues!</p>
+                    <p>Please call or text Kaleb at (612)804-3445 with any site issues</p>
                     <img src={closeBtnImg} className='close-btn' onClick={(e) => close()} />
                 </div>
             </div>

@@ -14,7 +14,7 @@ export default function RSVP({ rootCtrl }) {
     return (
         <div style={{position:"relative"}}>
             <div className='init-rsvp-section straight-font'>
-                <label className="init-rsvp-text straight-font" htmlFor='init-rsvp-name'>Enter your first and last name as they appear on your invitation:</label>
+                <label className="init-rsvp-text straight-font" htmlFor='init-rsvp-name'>Enter your first and last name to find your RSVP:</label>
                 <div className='init-rsvp-input-section'>
                     <input className='init-rsvp-name straight-font' id='init-rsvp-name' type='text' placeholder='Your Name' 
                     onChange={e => setName(e.target.value)} onKeyUp={e => handleKeyUp(e)} />
