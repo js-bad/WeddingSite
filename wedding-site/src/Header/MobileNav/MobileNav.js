@@ -11,9 +11,9 @@ export default function MobileNav({ tabContents }) {
 
     return (
         <div className='flex'>
-            <div className='mobile-logo'>
+            {/* <div className='mobile-logo'>
                 <img src={logo}></img>
-            </div>
+            </div> */}
             <div className='mobile-navbar'>
                 {mobileTabs}
             </div>

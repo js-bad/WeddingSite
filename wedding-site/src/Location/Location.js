@@ -11,24 +11,25 @@ export default function Location(props) {
     return(
         <div className="straight-font">
             <div>
-                <h3 className='curvy-font' style={{fontSize: '2em'}}>Ceremony + Reception:</h3>
+                <h3 className='curvy-font' style={{fontSize: '2.5em', marginBottom:'20px'}}>Ceremony & Reception:</h3>
                 <div style={{display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: 'center', justifyContent: 'space-around'}}>
                     <div style={{display: 'flex', flexDirection: 'column', fontSize: '1.2em'}}>
-                        <div style={{fontWeight: 'bold', fontSize: '1.1em'}}>Northern Stacks Events</div>
-                        <a href={nseMapsLink}
+                        <div style={{fontWeight: 'bold', fontSize: '1.1em'}}>Northern Stacks Events,</div>
+                        <span style={{fontSize: '1em'}}>located at <a href={nseMapsLink}
                             className="hyperlink">
-                                <div>38 Northern Stacks Drive</div>
+                                38 Northern Stacks Drive
                                 <div>Fridley, MN</div>
-                        </a>
-                        
-                        <span style={{marginTop: '15px'}}>Parking: Free Onsite</span>
-                        <span>The ceremony will begin at 3:00PM</span>
+                        </a></span>
+                        <span style={{marginTop: '25px'}}>The ceremony will begin at 3:00pm-- please arrive early and check out the taproom!</span>                        
+                        <span style={{fontSize: '.75em', marginTop: '25px'}}>Northern Stacks Events is connected to Forgotten Star Brewing Co., guests are 
+                            welcome to come and go between the two areas.</span>
+
                     </div>
                     <div style={{display: 'flex', flexDirection: 'column', width: isMobile ? '100%' : '30%', marginTop: isMobile && '10px'}}>
-                        <div style={{textAlign: 'center'}}>
+                        {/* <div style={{textAlign: 'center'}}>
                             Northern Stacks Events is connected to Forgotten Star Brewery+Taproom, guests are 
                             welcome to come and go between the two areas!
-                        </div>
+                        </div> */}
 
                     </div>
                     <div ><img src={NSElogo} /></div>
@@ -38,7 +39,7 @@ export default function Location(props) {
             </div>
             <div className="divider"></div>
             <div>
-                <h3 className='curvy-font' style={{fontSize: '2em'}}>Lodging:</h3>
+                <h3 className='curvy-font' style={{fontSize: '2.5em'}}>Lodging:</h3>
                 <div style={{display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: 'space-around'}}>
                     <a 
                         href={hiltonBookLink} 

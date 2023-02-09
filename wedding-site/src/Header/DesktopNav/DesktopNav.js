@@ -7,9 +7,6 @@ export default function DesktopNav({tabContents}) {
 
     return (
         <div className='desktop-header'>
-            <div className='desktop-logo'>
-                <img src={logo} />
-            </div>
                 <div className='desktop-navbar'>
                     <div className='desktop-navbar-tab-container'>
                         {tabs}

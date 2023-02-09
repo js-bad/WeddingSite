@@ -38,7 +38,7 @@ export default function VIPs(props) {
         return (
             <div key={ member.name } className="vip-icon">
                 
-                { member.title ? <span>{ member.title }</span> : '' }
+                { member.title ? <span className="curvy-font">{ member.title }</span> : '' }
                 <span className="straight-font">{ member.name }</span>
                 <div className="img-box"><img src={member.imgUrl} /></div>
             </div>
@@ -56,7 +56,7 @@ export default function VIPs(props) {
     const inMemoriamIcons = _.map(inMemoriamMembers, (member) => {
         return (
             <div key={ member.name } className="vip-icon">
-                { member.title ? <span>{ member.title }</span> : '' }
+                { member.title ? <span className="curvy-font">{ member.title }</span> : '' }
                 <span className="straight-font">{ member.name }</span>
                 <div className="img-box"><img src={member.imgUrl} /></div>
             </div>
@@ -65,7 +65,7 @@ export default function VIPs(props) {
 
     return (
         <div>
-            <h2 className="vips-header">In Loving Memory</h2>
+            <h2 className="vips-header curvy-font">In Loving Memory:</h2>
             <div style={{
                 display: 'flex',
                 flexWrap: 'wrap',
@@ -75,7 +75,7 @@ export default function VIPs(props) {
             </div>
             
             <div className="divider"></div>
-            <h2 className="vips-header">Wedding Party!</h2>
+            <h2 className="vips-header curvy-font">The Wedding Party:</h2>
             <div style={{
                 display: 'flex',
                 flexWrap: 'wrap',

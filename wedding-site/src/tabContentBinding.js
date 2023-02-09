@@ -13,25 +13,25 @@ function tabContentBinding(args) {
             component: <Home rootCtrl={args.rootCtrl} />,
             route: '/'
         },
+        'Details': {
+            path: 'Location/Location.js',
+            component: <Location rootCtrl={args.rootCtrl} />,
+            route: '/location'
+        },
         'VIPs': {
             path: 'VIPs/VIPs.js',
             component: <VIPs rootCtrl={args.rootCtrl} />,
             route: '/VIPs'
         },
-        'Gallery': {
-            path: 'Gallery/Gallery.js',
-            component: <Gallery rootCtrl={args.rootCtrl} />,
-            route: '/gallery'
-        },
-        'Location': {
-            path: 'Location/Location.js',
-            component: <Location rootCtrl={args.rootCtrl} />,
-            route: '/location'
-        },
         'RSVP': {
             path: 'RSVP/RSVP.js',
             component: <RSVP rootCtrl={args.rootCtrl} />,
             route: '/rsvp'
+        },
+        'Gallery': {
+            path: 'Gallery/Gallery.js',
+            component: <Gallery rootCtrl={args.rootCtrl} />,
+            route: '/gallery'
         },
         'Registry': {
             path: 'Registry/Registry.js',
