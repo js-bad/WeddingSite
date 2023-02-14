@@ -75,6 +75,33 @@ router.post('/devguestentry', async (req, res) => {
     }
 });
 
+router.get('/devrsvps', async (req, res) => {
+    try {
+        const attending = req.body.attending;
+        const completed = req.body.completed;
+        const guestName = req.body.guestName;
+
+        let findObj = {};
+        if (attending !== null) findObj.attending = attending;
+        if (completed !== null) findObj.completed = completed;
+        if (guestName !== null) findObj.guestName = guestName;
+
+        const guests = await Rsvp.find(findObj);
+
+        const retval = {
+            count: guests.length,
+            guests
+        }
+
+
+        res.json(retval);
+    }
+    catch (e) {
+        res.status(500).json(e)
+    }
+
+});
+
 
 
 module.exports = router

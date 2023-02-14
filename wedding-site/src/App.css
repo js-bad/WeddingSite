@@ -779,8 +779,8 @@ h2.headline-item-mobile {
 #rsvp-disclaimers {
     font-size: .75em;
     position: absolute;
-    right: -20px;
-    bottom: -200px;
+    right: -35px;
+    top: -33px;
 }
 
 #rsvp-disclaimers-mobile {
