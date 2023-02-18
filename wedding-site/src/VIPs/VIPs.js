@@ -5,14 +5,17 @@ export default function VIPs(props) {
     const weddingPartyMembers = [
         { 
             name: "Hannah Crossno", 
-            title: "Maid of Honor"
+            title: "Maid of Honor",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/hannah.jpg"
         },
         {
             name: "Nate Olson",
-            title: "Best Man"
+            title: "Best Man",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/nate.jpg"
         },
         {
-            name: "Casey Henricksen"
+            name: "Casey Henricksen",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/casey.png"
         },
         {
             name: "Zach Aune",
