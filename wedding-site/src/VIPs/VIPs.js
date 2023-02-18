@@ -15,14 +15,16 @@ export default function VIPs(props) {
             name: "Casey Henricksen"
         },
         {
-            name: "Zach Aune"
+            name: "Zach Aune",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/aune.jpg"
         },
         {
             name: "Allyson Koehler",
             imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/allyson.jpg"
         },
         {
-            name: "Micah Saugen"
+            name: "Micah Saugen",
+            imgUrl: "https://wedding-site-uploads.s3.us-east-2.amazonaws.com/micah.jpg"
         },
         {
             name: "Zach Farmer",
