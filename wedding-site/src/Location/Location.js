@@ -38,6 +38,23 @@ export default function Location(props) {
 
             </div>
             <div className="divider"></div>
+            <div className="FAQs">
+                <h3 className='curvy-font' style={{fontSize: '2.5em'}}>Q + A:</h3>
+            
+                <h4>WHAT TIME SHOULD I ARRIVE?</h4>
+                <p>&#x2022; The wedding will begin at 3:00 PM, please find your seats at 2:45.</p>
+                <h4>WHAT SHOULD I WEAR?</h4>
+                <p>&#x2022; The dress code is semi-formal attire. It is springtime, so dress weather-appropriate!</p>
+                <h4>WILL THE EVENT BE INDOORS OR OUTDOORS?</h4>
+                <p>&#x2022; The ceremony and reception will both be held in the same location. The event will take place indoors, but there will be some optional activities available outside for those interested.</p>
+                <h4>WHO SHOULD I BRING WITH ME?</h4>
+                <p>&#x2022; Please only include youtself and anyone listed alongside you on the RSVP page (or a "plus one" if you have that option). Treat this as a date night and leave the kiddos with a sitter!</p>
+                <h4>WILL FOOD AND DRINKS BE SERVED AT THE RECEPTION?</h4>
+                <p>&#x2022; Duh, of course! There will be a variety of food options to munch on throughout the afternoon and a food truck onsite at the brewery if you're needing a snack later on. There will be both alcoholic and non-alcoholic drink options available as well.</p>
+                <h4>WHAT SHOULD I DO IF I STILL HAVE QUESTIONS?!</h4>
+                <p>&#x2022; If you have any additional questions, feel free to reach out to Kaleb at (612)804-3445 or Jessi at (715)207-7655</p>
+            </div>
+            <div className="divider"></div>
             <div>
                 <h3 className='curvy-font' style={{fontSize: '2.5em'}}>Lodging:</h3>
                 <div style={{display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: 'space-around'}}>

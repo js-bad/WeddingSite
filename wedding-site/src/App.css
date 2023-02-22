@@ -810,3 +810,11 @@ h2.headline-item-mobile {
     position: relative;
     top: 50px;
 }
+
+.FAQs>p {
+    position: relative;
+    top: -15px;
+}
+.FAQs>p>div {
+    display: inline-block;
+}
