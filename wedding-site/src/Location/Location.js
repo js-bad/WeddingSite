@@ -50,9 +50,9 @@ export default function Location(props) {
                 <h4>WHO SHOULD I BRING WITH ME?</h4>
                 <p>&#x2022; Please only include youtself and anyone listed alongside you on the RSVP page (or a "plus one" if you have that option). Treat this as a date night and leave the kiddos with a sitter!</p>
                 <h4>WILL FOOD AND DRINKS BE SERVED AT THE RECEPTION?</h4>
-                <p>&#x2022; Duh, of course! There will be a variety of food options to munch on throughout the afternoon and a food truck onsite at the brewery if you're needing a snack later on. There will be both alcoholic and non-alcoholic drink options available as well.</p>
+                <p>&#x2022; Duh, of course! Dinner will be provided, as well as some snacks to munch on throughout the afternoon. Alcoholic and non-alcoholic beverages will be available. Additionally, Forgotten Star hosts local food trucks if you are feeling exceptionally peckish.</p>
                 <h4>WHAT SHOULD I DO IF I STILL HAVE QUESTIONS?!</h4>
-                <p>&#x2022; If you have any additional questions, feel free to reach out to Kaleb at (612)804-3445 or Jessi at (715)207-7655</p>
+                <p>&#x2022; If you have any additional questions, feel free to reach out to Kaleb at (612)804-3445 or Jessi at (715)207-7655.</p>
             </div>
             <div className="divider"></div>
             <div>
