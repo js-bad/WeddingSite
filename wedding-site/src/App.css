@@ -300,7 +300,6 @@ hr {
     margin-bottom: 1em;
     font-size:larger;
     font-weight: bold;
-    font-family: 'Parisienne', cursive;
     color: white;
 }
 
@@ -692,6 +691,7 @@ h2.headline-item-mobile {
 }
 
 .hotel-button {
+    margin-bottom: 1em;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -720,6 +720,29 @@ h2.headline-item-mobile {
 #livInnLogo {
     height: 50px;
     width: auto;
+}
+
+#home2Logo {
+    height: 50px;
+    width: auto;
+}
+
+#holidayInnExpressLogo {
+    height: 55px;
+    width: auto;
+}
+
+#springHillSuitesLogo {
+    height: 40px;
+    width: auto;
+}
+.houseKeysPic {
+    width: 230px;
+}
+.houseKeysContainer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .rsvp-btn {

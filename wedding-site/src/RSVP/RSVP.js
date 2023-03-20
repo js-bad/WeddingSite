@@ -18,7 +18,7 @@ export default function RSVP({ rootCtrl }) {
                 <div className='init-rsvp-input-section'>
                     <input className='init-rsvp-name straight-font' id='init-rsvp-name' type='text' placeholder='Your Name' 
                     onChange={e => setName(e.target.value)} onKeyUp={e => handleKeyUp(e)} />
-                    <button className='init-rsvp-enter curvy-font' onClick={e => ctrl.nameLookup(name)}>Submit</button>
+                    <button className='init-rsvp-enter straight-font' onClick={e => ctrl.nameLookup(name)}>Submit</button>
                 </div>
                 { rootCtrl.isDesktop && <span className='init-rsvp-note'>(Please RSVP by 3.22.2023)</span>}
             </div>

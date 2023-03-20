@@ -29,7 +29,7 @@ export default function Gallery() {
                 className='hide'
                 accept="image/png, image/jpeg">
             </input>
-            <button className='upload-btn' onClick={(e) => ctrl.uploadClicked(e)}>Upload A Photo!</button>
+            <button className='upload-btn straight-font' onClick={(e) => ctrl.uploadClicked(e)}>Upload A Photo!</button>
 
             <ul className='img-grid'>
                 {imageBoxes}

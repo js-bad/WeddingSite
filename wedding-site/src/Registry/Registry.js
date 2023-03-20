@@ -43,12 +43,16 @@ export default function Registry (props) {
         </div>
         <div id="registryDivider" className="divider"></div>
         <div style={{display:'flex'}}><img style={{margin: 'auto',width:330}} src={venmoLogo} /> </div>
-        <div id="venmoNote" class="curvy-font" style={{textAlign:"center", fontSize:"1.3em"}}><span>All Cash/Venmo gifts will contribute towards maintenance and renovations for our beautiful home! 😄</span></div>
+        
         <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',lineHeight:'0.1em',maxWidth:`${isDesktop?'80%':''}`,marginLeft:'auto',marginRight:'auto'}} className="straight-font">
             <h3 className='curvy-font' style={{fontSize:'1.5em'}}>Jessi: <span style={{fontSize:'.75em'}} className='mono-font'>@deliahhh</span></h3>
             <h3 className='curvy-font' style={{fontSize:'1.5em'}}>Kaleb: <span style={{fontSize:'.75em'}} className='mono-font'>@Kaleb-Olson-1</span></h3>
         </div>
-
+        <div id="venmoNote" class="curvy-font" style={{textAlign:"center", fontSize:"1.3em"}}><span>All monetary gifts will contribute towards maintenance and renovations for our beautiful home! 😄</span></div>
+        <div className="houseKeysContainer">
+            <img class="houseKeysPic" 
+            src="https://wedding-site-uploads.s3.us-east-2.amazonaws.com/housekeys.jpg" />
+        </div>
     </div>
     );
 }
