@@ -413,11 +413,11 @@ hr {
     filter: drop-shadow(1px 1px 1px black);
 }
 .vacc-btn-yes {
-    border: 2px rgba(1, 202, 1, 0.904) outset;
-    background-color:rgba(1, 202, 1, 0.904);
+    border: 2px #ae937e outset;
+    background-color:#ae937e;
 }
 .vacc-btn-yes:hover {
-    border: 2px rgba(1, 202, 1, 0.904) inset;
+    border: 2px #ae937e inset;
     filter: drop-shadow(1px 1px 1px black);
 }
 
