@@ -17,6 +17,9 @@ export default function ConfirmVaccination({ rootCtrl, show, name, updateVaccina
                 <button className="vacc-btn vacc-btn-yes" onClick={() => updateVaccination(true)}>Yes</button>
                 <button className="vacc-btn" onClick={() => updateVaccination(false)}>No</button>
                 <br/>
+                <span style={{ fontSize: "0.9em"}}>
+                    If you are unable to be vaccinated or have any concerns, please contact Jessi or Kaleb.
+                </span><br/>
                 <a 
                     target="_blank"
                     className="cdc-hyperlink"
