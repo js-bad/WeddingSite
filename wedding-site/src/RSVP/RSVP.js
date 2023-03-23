@@ -20,7 +20,7 @@ export default function RSVP({ rootCtrl }) {
                     onChange={e => setName(e.target.value)} onKeyUp={e => handleKeyUp(e)} />
                     <button className='init-rsvp-enter straight-font' onClick={e => ctrl.nameLookup(name)}>Submit</button>
                 </div>
-                { rootCtrl.isDesktop && <span className='init-rsvp-note'>(Please RSVP by 3.22.2023)</span>}
+                { rootCtrl.isDesktop && <span className='init-rsvp-note'>(Please RSVP as soon as possible!)</span>}
             </div>
             { rootCtrl.isDesktop?
             <div id="rsvp-disclaimers" className='straight-font'>
@@ -31,7 +31,7 @@ export default function RSVP({ rootCtrl }) {
             <div id="rsvp-disclaimers-mobile" className='straight-font'>
                 <span style={{display: 'block'}}>*Event is 21+</span>
                 <span style={{display: 'block'}}>*COVID-19 vaccination required</span>
-                <span style={{display: 'block'}}>*Please RSVP by 3.22.2023</span>
+                <span style={{display: 'block'}}>*Please RSVP as soon as possible!</span>
             </div>
             }
             
